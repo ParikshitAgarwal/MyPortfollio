@@ -1,0 +1,116 @@
+body{
+    margin: 0px;
+}
+
+.intro {
+    background:antiquewhite  url(l.jpg);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    background-blend-mode: darken;
+    
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+
+    
+    
+    
+
+}
+.intro h1{
+    display: flex;
+    align-self: center;
+    position: relative;
+    top: 50px;
+}
+.intro h2{
+    display: flex;
+    align-self: center;
+    position: relative;
+    top: 60px;
+    
+}
+
+.intro img{
+    height: 200px;
+    width: 200px;
+        border-radius: 100%;
+        display: flex;
+        align-self: center;
+        position: relative;
+        top: 40px;
+}
+.cont{
+    color: black;
+
+    display: flex;
+    flex-direction: column;
+}
+.first{
+    display: flex;
+    margin: 20px;
+    padding: 80px;
+   
+}
+.first p{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+
+}
+.first img{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+}
+
+.second img{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+}
+.second{
+    display: flex;
+    margin: 20px;
+    flex-direction: row-reverse;
+    padding: 80px;
+   
+}
+.second p{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+
+}
+.third img{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+}
+.third{
+    display: flex;
+    margin: 20px;
+    padding: 80px;
+   
+}
+.third p{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+
+}
+.footer{
+    border-top: 2px solid black;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin: 0px;
+    background: grey url(h.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
