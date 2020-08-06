@@ -24,6 +24,7 @@ body{
     align-self: center;
     position: relative;
     top: 50px;
+    color:rgb(0, 170, 128);
 }
 .intro h2{
     display: flex;
